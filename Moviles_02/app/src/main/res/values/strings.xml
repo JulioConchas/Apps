@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Main</string>
+    <string name="name">Name</string>
+    <string name="n_control">N Control</string>
+    <string name="creditos">Creditos</string>
+    <string name="semestre">Semestre</string>
+    <string name="carrera">Carrera</string>
+    <string name="exit">Exit</string>
+    <string name="profile_picture">profile picture</string>
+    <string name="nombre">Nombre</string>
+    <string name="num_control">N. Control</string>
+    <string name="login">login</string>
+    <string name="perfil">Perfil</string>
+    <string name="datos_academicos">Datos Academicos</string>
+</resources>

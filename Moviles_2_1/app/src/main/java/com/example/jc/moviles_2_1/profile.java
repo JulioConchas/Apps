@@ -37,6 +37,9 @@ public class profile extends AppCompatActivity {
             et_birth.setText(dt.getString(3));
             et_degree.setText(dt.getString(4));
             et_score.setText(dt.getString(5));
+            if(Integer.parseInt(dt.getString(5)) <= 70){
+                Toast.makeText(this,"has perdido la beca", Toast.LENGTH_SHORT).show();
+            }
         }
         else Toast.makeText(this,"These is not data!",Toast.LENGTH_SHORT).show();
     }

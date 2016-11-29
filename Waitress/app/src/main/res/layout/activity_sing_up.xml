@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.jc.waitress.SingUp"
+    android:background="@color/highlighted_text_material_dark"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <ImageView
+        android:layout_width="116dp"
+        android:layout_height="100dp"
+        android:id="@+id/imageView"
+        android:layout_gravity="center_horizontal"
+        android:longClickable="true"
+        android:background="@drawable/img_1"
+        android:layout_marginTop="10dp" />
+
+    <EditText
+        android:layout_width="262dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/et_TradeName"
+        android:layout_gravity="center_horizontal"
+        android:hint="Trade Name" />
+
+    <Spinner
+        android:layout_width="262dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner"
+        android:layout_marginLeft="25dp" />
+
+    <EditText
+        android:layout_width="262dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/et_adminName"
+        android:layout_gravity="center_horizontal"
+        android:hint="Admin User Name" />
+
+    <EditText
+        android:layout_width="262dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/et_pass"
+        android:layout_gravity="center_horizontal"
+        android:hint="Password" />
+
+    <EditText
+        android:layout_width="262dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/et_cPass"
+        android:layout_gravity="center_horizontal"
+        android:hint="Confirm Password" />
+
+    <EditText
+        android:layout_width="262dp"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/et_email"
+        android:layout_gravity="center_horizontal"
+        android:hint="E-mail" />
+
+    <CheckBox
+        android:layout_width="292dp"
+        android:layout_height="wrap_content"
+        android:text="Accept Terms &amp; Conditions"
+        android:id="@+id/cb_conditions"
+        android:layout_weight="0.11"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="continue"
+        android:id="@+id/btn_continue"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/highlighted_text_material_light"
+        android:layout_marginTop="20dp"
+        android:onClick="showData" />
+
+</LinearLayout>

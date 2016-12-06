@@ -27,22 +27,22 @@ public class terminals extends AppCompatActivity {
             case "Waitress":
                 System.out.println("**** open waitress's fragment : terminals class **** ");
                 waitress waitrFragment = new waitress();
-                transaction.add(R.id.mainLayout, waitrFragment);
+                transaction.add(R.id.terminalsLayout, waitrFragment);
                 break;
             case "Kitchen":
                 System.out.println("**** open kitchen's fragment : terminals class **** ");
                 kitchen kitFragment = new kitchen();
-                transaction.add(R.id.mainLayout, kitFragment);
+                transaction.add(R.id.terminalsLayout, kitFragment);
                 break;
             case "Client":
                 System.out.println("**** open client's fragment : terminals class **** ");
                 client clFragment = new client();
-                transaction.add(R.id.mainLayout, clFragment);
+                transaction.add(R.id.terminalsLayout, clFragment);
                 break;
             default:
                 System.out.println("**** open as default main's fragment : terminals class **** ");
                 Main mainFragment = new Main();
-                transaction.add(R.id.mainLayout, mainFragment);
+                transaction.add(R.id.terminalsLayout, mainFragment);
                 break;
         }
         //4.- Confirmar el cambio

@@ -1,11 +1,14 @@
 package com.example.jc.waitress;
 
 import android.content.res.Resources;
+import android.support.v4.app.FragmentActivity;
+import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.TabHost;
 
-public class LogIn extends AppCompatActivity {
+public class LogIn extends FragmentActivity {
+    ViewPager view_menu;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -33,5 +36,11 @@ public class LogIn extends AppCompatActivity {
         tabs.addTab(spec);
 
         tabs.setCurrentTab(0);
+
+        //Menu tab
+        view_menu = (ViewPager)findViewById(R.id.view_menu);
+
+        SwipeAdapter swipeAdapter = new SwipeAdapter(getSupportFragmentManager());
+        view_menu.setAdapter(swipeAdapter);
     }
 }

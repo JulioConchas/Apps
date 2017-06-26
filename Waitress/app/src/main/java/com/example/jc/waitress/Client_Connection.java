@@ -8,7 +8,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.Spinner;
-
+// Conchas Jimenez Julio Cesar
+// conchasjimenez@gmail.com
 public class Client_Connection extends AppCompatActivity {
     private Spinner sr_kindTrade;
 

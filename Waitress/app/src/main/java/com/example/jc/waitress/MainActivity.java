@@ -10,6 +10,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
+//Conchas Jimenez Julio Cesar
+//conchasjimenez@gmail.com	
 public class MainActivity extends AppCompatActivity implements Main.OnFragmentInteractionListener{
 
     @Override

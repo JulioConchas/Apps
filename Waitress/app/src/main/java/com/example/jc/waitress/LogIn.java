@@ -7,6 +7,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.TabHost;
 
+//Conchas Jimenez Julio Cesar
+//conchasjimenez@gmail.com
 public class LogIn extends FragmentActivity {
     ViewPager view_menu;
 

@@ -8,7 +8,8 @@ import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.Spinner;
 import android.widget.Toast;
-
+// Conchas Jimenez Julio Cesar
+// conchasjimenez@gmail.com
 public class SingUp extends AppCompatActivity {
     private EditText et_TradeName,et_adminName,et_pass,et_cPass,et_email;
     private Spinner sr_kindTrade;
